@@ -104,5 +104,20 @@ and body=content
 
 Same to retrieve the content
 
+import  codeez
+
+a=codeez.microservice()
+
+This function is used to execute a microservice/website without knowing anything about the user account. So no special codeez secrutiy is provided.
+
+There is only one function:
+
+execute(self, url, function, query=None, headers=None, body=None):
+
+In codeez all fucntions are considered/called as APIs.
+So you need to provide the url of the micro-service/website, the query parmaters as a JSON dict, the headers as a JSON dict and the body
+
+Instead you can also use requests to manage your codeez function or directly call the API at https://<url>/myfunction/<function>
+
 
 
