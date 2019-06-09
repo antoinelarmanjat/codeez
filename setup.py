@@ -13,7 +13,7 @@ setup(
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'codeez python SDK',
   long_description=long_description,
-  long_description_content_type='text/markdown' # Give a short description about your library
+  long_description_content_type='text/markdown', # Give a short description about your library
   author = 'Antoine Larmanjat',                   # Type in your name
   author_email = 'antoine_larmanjat@hotmail.com',      # Type in your E-Mail
   url = 'https://www.github.com/antoinelarmanjat/codeez',   # Provide either the link to your github or to your website
