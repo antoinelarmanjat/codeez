@@ -12,14 +12,14 @@ class microservice:
             if headers == None:
                 headers={}
 
-            response = requests.get(url=url+"/myfunction/"+str(function), params=query,headers=headers)
+            response = requests.get(url=url+"/"+str(function), params=query,headers=headers)
 
             return response.content
         else:
             if headers == None:
                 headers={}
 
-            response = requests.post(url=url+"/myfunction/"+str(function),params=query, headers=headers, data=body)
+            response = requests.post(url=url+"/"+str(function),params=query, headers=headers, data=body)
 
             return response.content
 
